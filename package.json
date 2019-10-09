@@ -1,0 +1,59 @@
+{
+  "name": "devconnector",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.3",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "react-scripts": "3.2.0",
+    "request": "^2.88.0"
+  },
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "server.js",
+  "devDependencies": {
+    "concurrently": "^4.1.2",
+    "nodemon": "^1.19.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faithronnels/socialdev.git"
+  },
+  "keywords": [
+    "social",
+    "network"
+  ],
+  "author": "faithronnels",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/faithronnels/socialdev/issues"
+  },
+  "homepage": "https://github.com/faithronnels/socialdev#readme"
+}
